@@ -1,8 +1,16 @@
 
 
+import Chai from "./Chai";
+
+
+
 function App() {
   return (
-    <h1>Chai Aur React | Ishant Singh</h1>
+    <>
+    <Chai/>
+    <h2>Chai Aur React</h2>
+    <p>Test Para</p>
+    </>
   );
 }
 
