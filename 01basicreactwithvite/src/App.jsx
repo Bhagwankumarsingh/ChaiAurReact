@@ -9,10 +9,10 @@ function App() {
   // let counter=5;
   
   const addValue = () => {
-    if(counter<=19){
-    counter=counter+1;
-    setCounter(counter);
-    }
+    // counter=counter+1;
+    setCounter((prevCounter)=> prevCounter+1);
+    setCounter((prevCounter)=> prevCounter+1);
+    setCounter((prevCounter)=> prevCounter+1);    
   }
   
   const removeValue = () =>{
