@@ -18,10 +18,10 @@ function App() {
     <>
      <h1 className='bg-green-400 text-black p-4 rounded-xl mb-4'>Talwind Test</h1>
      
-    <Card username="chaiaurcode" btnText="View Profile"  />
+    <Card username="chaiaurcode" btnText="View Profile"   />
     <Card username="Ishant" btnText="Click me"/>
     <Card username="Hitesh"  />
-    </>
+    </> 
   )
 }
 
